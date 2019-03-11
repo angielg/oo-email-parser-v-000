@@ -11,7 +11,6 @@ class EmailParser
     email_array = emails.split
     new_email_array = email_array.uniq
     new_email_array
-        
   end
 end
 
