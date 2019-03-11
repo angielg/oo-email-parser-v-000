@@ -7,18 +7,8 @@ class EmailParser
   end
  
   def parse
-    #binding.pry
-    
     emails = @emails.delete(",")
     email_array = emails.split
-    #parsed_emails = [ ]
-    #email_array.each do |email|
-      
-     # if email_array.include?(email) == false
-       # parsed_emails << email
-      #end
-    #end
-    #parsed_emails
   end
 end
 
