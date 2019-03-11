@@ -16,6 +16,7 @@ class EmailParser
       if email == email
         email.delete
       end
+    end
         
   end
 end
