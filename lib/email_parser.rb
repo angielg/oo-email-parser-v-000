@@ -17,6 +17,8 @@ class EmailParser
      #   email.delete
      # end
     #end
+    new_email_array = email_array.uniq
+    new_email_array
         
   end
 end
