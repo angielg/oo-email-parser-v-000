@@ -9,6 +9,9 @@ class EmailParser
   def parse
     emails = @emails.delete(",")
     email_array = emails.split
+    #if index(0) == index(1)
+       #index.delete
+    #end
   end
 end
 
