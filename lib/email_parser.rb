@@ -12,6 +12,11 @@ class EmailParser
     #if index(0) == index(1)
        #index.delete
     #end
+    email_array.collect do |email|
+      if email == email
+        email.delete
+      end
+        
   end
 end
 
