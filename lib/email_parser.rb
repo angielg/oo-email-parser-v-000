@@ -9,14 +9,6 @@ class EmailParser
   def parse
     emails = @emails.delete(",")
     email_array = emails.split
-    #if index(0) == index(1)
-       #index.delete
-    #end
-    #email_array.collect do |email|
-     # if email == email
-     #   email.delete
-     # end
-    #end
     new_email_array = email_array.uniq
     new_email_array
         
